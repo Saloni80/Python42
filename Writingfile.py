@@ -1,0 +1,5 @@
+file=open('example.txt','w')
+file.write('Hello, this line of text\n.')
+file.write('This is another line of text\n.')
+print('Data written to file.')
+file.close()
