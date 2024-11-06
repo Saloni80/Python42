@@ -1,4 +1,3 @@
-with open('example.txt','r')as file:
-    print(file.tell())
-    file.read(10)
-    print(file.tell())
+f1=open("abc.txt","r")
+if f1:
+    print("File is opened successfully")

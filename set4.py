@@ -1,0 +1,6 @@
+Months=set(["January","February","March","April","May","June","July"])
+print("\n Priting the original set")
+print(Months)
+Months.discard("April")
+#Months.add("August")
+print(Months)
